@@ -20,7 +20,7 @@ const slides = [
     badge: "COMING SOON",
     title: "JORJA SMITH",
     subtitle: "FALLING OR FLYING TOUR",
-    date: "THU 10 JUL 2025",
+    date: "FRI 13 FEB 2026",
     time: "19:00",
     venue: "Main Hall",
     genre: "Pop, R&B/Soul"
@@ -31,7 +31,7 @@ const slides = [
     badge: "NEXT EVENT",
     title: "THE ROSE",
     subtitle: "ONCE UPON A WRLD",
-    date: "FRI 27 JUN 2025",
+    date: "FRI 27 JUN 2026",
     time: "19:00",
     venue: "Main Hall",
     genre: "Pop"
@@ -42,7 +42,7 @@ const slides = [
     badge: "JUST ANNOUNCED",
     title: "BURNA BOY",
     subtitle: "WORLD TOUR 2026",
-    date: "FRI 07 FEB 2026",
+    date: "THU 07 FEB 2026",
     time: "20:00",
     venue: "Main Hall",
     genre: "Afrobeats, R&B"
@@ -60,12 +60,12 @@ const slides = [
   },
   {
     id: 5,
-    image: "https://www.abcdrduson.com/wp-content/uploads/2023/07/5323397-1.jpg",
+    image: "https://apps.ticketmatic.com/obj/filestore/prod/10491/events/11420/image.67bef0e0b2a19.960.jpg",
     badge: "JUST ANNOUNCED",
-    title: "NINHO",
-    subtitle: "JEFE WORLD TOUR",
-    date: "FRI 19 JUL 2025",
-    time: "20:00",
+    title: "SDM",
+    subtitle: "HIP HOP SNACKS",
+    date: "SAT 01 NOV 2025",
+    time: "19:00",
     venue: "Main Hall",
     genre: "French Rap"
   }
@@ -185,7 +185,7 @@ export default function HeroCarousel() {
                         className="text-lg px-8 hover:scale-105 transition-transform"
                         asChild
                       >
-                        <Link href="https://buy.stripe.com/aEUeVP04SgJE8Qo001">
+                        <Link href="https://buy.stripe.com/aFaeVd6zwaoCfnP6Ia5ZC02">
                           BUY TICKETS
                         </Link>
                       </Button>

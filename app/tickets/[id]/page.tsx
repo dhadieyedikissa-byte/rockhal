@@ -42,7 +42,7 @@ export default function TicketPage({ params }: TicketPageProps) {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF6EB] pt-24 pb-16">
+    <div className="min-h-screen bg-[#FAF6EB] pt-24 pb-16 text-gray-900">
       <div className="container mx-auto px-4 max-w-3xl">
         {/* Header */}
         <div className="mb-8">
@@ -89,7 +89,7 @@ export default function TicketPage({ params }: TicketPageProps) {
                   onClick={handleDecrement}
                   disabled={quantity === 0}
                 >
-                  <Minus className="h-4 w-4" />
+                  <Minus className="h-4 w-4 text-muted-foreground" />
                 </Button>
                 <span className="w-8 text-center">{quantity}</span>
                 <Button
@@ -98,7 +98,7 @@ export default function TicketPage({ params }: TicketPageProps) {
                   onClick={handleIncrement}
                   disabled={quantity === 10}
                 >
-                  <Plus className="h-4 w-4" />
+                  <Plus className="h-4 w-4 text-muted-foreground" />
                 </Button>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function TicketPage({ params }: TicketPageProps) {
           </div>
 
           <div className="flex gap-4">
-            <Button variant="outline" className="flex-1" asChild>
+            <Button variant="outline" className="flex-1 text-muted-foreground" asChild>
               <Link href="/events">Previous</Link>
             </Button>
             <Button 
